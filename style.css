@@ -1,0 +1,108 @@
+@font-face {
+    font-family: poppins-medium;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: poppins-medium;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+body{
+    height: 100vh;
+}
+.form-container{
+    width: 60%;
+    height: 100vh;
+    border: black solid 1px;
+    position: absolute;
+    right: 0px;
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: #fff;
+}
+form{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 5rem; 
+}
+.row{
+    display: flex;
+    gap: 5rem;
+}
+
+label{
+   font-family: poppins-medium;
+   font-weight: lighter;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 15rem;
+    height: 1.5rem;
+    outline: none;
+    border: #1e7134 solid 1px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #409b5e;
+}
+
+.image-container{
+    width: 40%;
+    height: 100vh;
+    background-image: url(pictures/markus-spiske-6hDDnisCRMk-unsplash.jpg);
+    background-size: cover;
+
+}
+#submit{
+    background-color: #409b5e;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-family: poppins-medium;
+}
+p{
+    margin-left: 5rem;
+    font-family: poppins-medium;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 50%;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 25rem;
+    display: flex;
+   align-items: center;
+   padding-left: 15rem;
+}
+#thym{
+    width: 100px;
+}
+h3{
+    color: #fff;
+    font-family: poppins-medium;
+
+}
+input:invalid{
+    outline: none;
+    border: 2px solid red;
+}
